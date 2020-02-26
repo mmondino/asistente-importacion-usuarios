@@ -1,0 +1,31 @@
+#flash-messages
+{
+    padding: 10px;
+}
+
+.action-delete
+{
+    background-color: #ec6b6d !important;
+    color: #ffffff !important;
+}
+
+.action-new
+{
+    background-color: #59c361 !important;
+    color: #ffffff;
+}
+
+.alert-success
+{
+    background-color: #23d160 !important;
+    border-color: #23d160 !important;
+}
+
+.btn-danger
+{
+    background-color: #ec6b6d !important;
+}
+
+.toast {
+    opacity: 0.9 !important;
+}

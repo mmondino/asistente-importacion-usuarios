@@ -1,0 +1,27 @@
+.dropzone.dz-clickable {
+    cursor: pointer;
+}
+.dropzone {
+    border: 2px dashed #0087F7;
+    border-radius: 5px;
+    background-image: url(https://az158878.vo.msecnd.net/marketing/Partner_21474837863/Product_42949681703/Asset_8bb796a2-5693-4187-8589-3cf979d3759f/excelImportIcon300.png);
+    /*
+    background-image: url(http://icons.iconarchive.com/icons/graphicloads/filetype/96/excel-xls-icon.png);
+    */
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: 50% 40px;    
+    
+    background-color: #ffffff;
+    
+    min-height: 250px;
+
+    padding: 54px 54px;
+}
+.dropzone, .dropzone * {
+    box-sizing: border-box;
+}
+
+.dropzone .dz-default.dz-message {
+    margin-top: 115px;
+}

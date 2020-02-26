@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+   asistente-importacion:
+     build: 
+       context: ./php72       
+     volumes:
+      - ./apache/conf/ports.conf:/etc/apache2/ports.conf
+      - ./apache/sites-enabled:/etc/apache2/sites-enabled         
+      - ../:/var/www
+     network_mode: host
+     ports:
+      - "8507:8507"
+
